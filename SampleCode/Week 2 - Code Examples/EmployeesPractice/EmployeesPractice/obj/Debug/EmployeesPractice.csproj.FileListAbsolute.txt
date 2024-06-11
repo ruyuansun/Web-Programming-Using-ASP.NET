@@ -1,0 +1,36 @@
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Web App Project Template V1.dll.config
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Web App Project Template V1.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Web App Project Template V1.pdb
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Antlr3.Runtime.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\AutoMapper.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\EntityFramework.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\EntityFramework.SqlServer.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Newtonsoft.Json.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Helpers.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Mvc.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Optimization.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Razor.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.Razor.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\WebGrease.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\AutoMapper.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\EntityFramework.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\EntityFramework.SqlServer.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Newtonsoft.Json.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Helpers.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Mvc.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Optimization.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.Razor.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\System.Web.WebPages.Razor.xml
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\bin\Antlr3.Runtime.pdb
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\obj\Debug\EmployeesPractice.csproj.AssemblyReference.cache
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\obj\Debug\EmployeesPractice.csproj.CoreCompileInputs.cache
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\obj\Debug\Employee.296D9A60.Up2Date
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\obj\Debug\Web App Project Template V1.dll
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\GetAllGetOne\EmployeesPractice\EmployeesPractice\obj\Debug\Web App Project Template V1.pdb

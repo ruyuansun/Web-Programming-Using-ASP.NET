@@ -1,0 +1,51 @@
+﻿@model IEnumerable<RS2241A1.Models.ConcertBaseViewModel>
+
+@{
+    ViewBag.Title = "Concerts List";
+}
+
+<h2>Upcoming Concerts</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+   <thead>
+      <tr>
+         <th>Name</th>
+         <th>Address</th>
+         <th>Contact Info</th>
+         <th>Concert Date</th>
+         <th></th>
+      </tr>
+   </thead>
+   <tbody>
+      @foreach (var item in Model)
+      {
+         <tr>
+            <td>
+               @Html.DisplayFor(modelItem => item.Name)<br />
+               <em>@Html.DisplayFor(modelItem => item.Company)</em>
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.Address)<br />
+               @Html.DisplayFor(modelItem => item.City), @Html.DisplayFor(modelItem => item.State), @Html.DisplayFor(modelItem => item.Country), @Html.DisplayFor(modelItem => item.PostalCode)
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.Phone)<br />
+               <a href="mailto:@item.Email">@Html.DisplayFor(modelItem => item.Email)</a><br />
+               <a href="@item.Website" target="_blank">@Html.DisplayFor(modelItem => item.Website)</a>
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.FormattedConcertDate)<br />
+               <em>@Html.DisplayFor(modelItem => item.DaysToGo)</em>
+            </td>
+            <td>
+               @Html.ActionLink("Edit", "Edit", new { id = item.ConcertId }) |
+               @Html.ActionLink("Details", "Details", new { id = item.ConcertId }) |
+               @Html.ActionLink("Delete", "Delete", new { id = item.ConcertId })
+            </td>
+         </tr>
+      }
+   </tbody>
+</table>

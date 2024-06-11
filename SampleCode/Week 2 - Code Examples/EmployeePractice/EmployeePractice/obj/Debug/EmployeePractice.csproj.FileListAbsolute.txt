@@ -1,0 +1,2 @@
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\EmployeePractice\EmployeePractice\obj\Debug\EmployeePractice.csproj.AssemblyReference.cache
+C:\Users\ruyua\visualStudio-work\WEB524\SampleCode\Week 2 - Code Examples\EmployeePractice\EmployeePractice\obj\Debug\EmployeePractice.csproj.CoreCompileInputs.cache

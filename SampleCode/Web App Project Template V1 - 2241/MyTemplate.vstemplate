@@ -1,0 +1,154 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Web App Project Template V1</Name>
+    <Description>Visual Studio project template used in WEB524 to implement your assignments.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Web App Project Template V1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <LanguageTag>C#</LanguageTag>
+    <ProjectTypeTag>WEB524</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$templateVer$" Value="1"/>
+      <CustomParameter Name="$semesterCode$" Value="2237"/>
+      <CustomParameter Name="$semesterName$" Value="Fall"/>
+      <CustomParameter Name="$semesterYear$" Value="2023"/>
+    </CustomParameters>
+    <Project TargetFileName="Web App Project Template V1.csproj" File="Web App Project Template V1.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Chinook.mdf">Chinook.mdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Chinook_log.ldf">Chinook_log.ldf</ProjectItem>
+      </Folder>
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+      </Folder>
+	  <Folder Name="CodeTemplates" TargetFolderName="CodeTemplates">
+		  <Folder Name="MvcView" TargetFolderName="MvcView">
+			<ProjectItem ReplaceParameters="false" TargetFileName="Create.cs.t4">Create.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="Delete.cs.t4">Delete.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="Details.cs.t4">Details.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="Edit.cs.t4">Edit.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="Empty.cs.t4">Empty.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="Imports.include.t4">Imports.include.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="List.cs.t4">List.cs.t4</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="ModelMetadataFunctions.cs.include.t4">ModelMetadataFunctions.cs.include.t4</ProjectItem>
+		  </Folder>
+	  </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css">bootstrap-grid.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css.map">bootstrap-grid.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css">bootstrap-grid.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css.map">bootstrap-grid.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.rtl.css">bootstrap-grid.rtl.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.rtl.css.map">bootstrap-grid.rtl.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.rtl.min.css">bootstrap-grid.rtl.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.rtl.min.css.map">bootstrap-grid.rtl.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css">bootstrap-reboot.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css.map">bootstrap-reboot.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css">bootstrap-reboot.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css.map">bootstrap-reboot.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.rtl.css">bootstrap-reboot.rtl.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.rtl.css.map">bootstrap-reboot.rtl.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.rtl.min.css">bootstrap-reboot.rtl.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.rtl.min.css.map">bootstrap-reboot.rtl.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.css">bootstrap-utilities.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.css.map">bootstrap-utilities.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.min.css">bootstrap-utilities.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.min.css.map">bootstrap-utilities.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.rtl.css">bootstrap-utilities.rtl.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.rtl.css.map">bootstrap-utilities.rtl.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.rtl.min.css">bootstrap-utilities.rtl.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-utilities.rtl.min.css.map">bootstrap-utilities.rtl.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css.map">bootstrap.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.rtl.css">bootstrap.rtl.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.rtl.css.map">bootstrap.rtl.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.rtl.min.css">bootstrap.rtl.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.rtl.min.css.map">bootstrap.rtl.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Manager.cs">Manager.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Data" TargetFolderName="Data">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Album.cs">Album.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Artist.cs">Artist.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="Concert.cs">Concert.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Customer.cs">Customer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataContext.cs">DataContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Employee.cs">Employee.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Genre.cs">Genre.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Invoice.cs">Invoice.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InvoiceLine.cs">InvoiceLine.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MediaType.cs">MediaType.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Playlist.cs">Playlist.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Track.cs">Track.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Venue.cs">Venue.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.js">bootstrap.bundle.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.js.map">bootstrap.bundle.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.min.js">bootstrap.bundle.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.min.js.map">bootstrap.bundle.min.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.esm.js">bootstrap.esm.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.esm.js.map">bootstrap.esm.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.esm.min.js">bootstrap.esm.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.esm.min.js.map">bootstrap.esm.min.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js">bootstrap.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js.map">bootstrap.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js.map">bootstrap.min.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.intellisense.js">jquery-3.7.1.intellisense.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.js">jquery-3.7.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.min.js">jquery-3.7.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.min.map">jquery-3.7.1.min.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.slim.js">jquery-3.7.1.slim.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.slim.min.js">jquery-3.7.1.slim.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.7.1.slim.min.map">jquery-3.7.1.slim.min.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.8.3.js">modernizr-2.8.3.js</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="About.cshtml">About.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Contact.cshtml">Contact.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

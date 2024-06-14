@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\",
+  "WorkspaceRootPath": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\employeespractice\\employeespractice\\models\\employeeaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\employeespractice\\employeespractice\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|solutionrelative:employeespractice\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\employeespractice\\models\\employeeaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|solutionrelative:employeespractice\\models\\employeeaddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\employeespractice\\employeespractice\\models\\employeebaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\employeespractice\\models\\employeebaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|solutionrelative:employeespractice\\models\\employeebaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\employeespractice\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD073961-6367-412F-8141-66F07207FE84}|EmployeesPractice\\EmployeesPractice.csproj|solutionrelative:employeespractice\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +34,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmployeeBaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
               "RelativeDocumentMoniker": "EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
               "RelativeToolTip": "EmployeesPractice\\Models\\EmployeeBaseViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:05:39.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T12:05:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeAddViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
+              "RelativeDocumentMoniker": "EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
+              "RelativeToolTip": "EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:13:42.309Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeAddViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
-              "RelativeDocumentMoniker": "EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
-              "RelativeToolTip": "EmployeesPractice\\Models\\EmployeeAddViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:13:42.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Data\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Data\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeesPractice\\Data\\Employee.cs",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Data\\Employee.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\EmployeesPractice\\EmployeesPractice\\Data\\Employee.cs",
               "RelativeToolTip": "EmployeesPractice\\Data\\Employee.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T11:02:47.969Z",
               "EditorCaption": ""

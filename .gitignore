@@ -1,0 +1,34 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder-based project configuration
+*.vscode
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.vscode
+.DS_Store
+
+# Ignore Visual Studio Code temporary files, build results, and
+# folder-based project configuration
+.vscode/
+*.code-workspace
+
+# Ignore Visual Studio temporary files, build results, and
+# folder-based project configuration
+.vs/
+.vscode/
+bin/
+obj/
+
+# Ignore Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk

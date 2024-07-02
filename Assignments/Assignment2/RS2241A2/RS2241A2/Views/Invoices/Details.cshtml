@@ -1,0 +1,100 @@
+﻿@model RS2241A2.Models.InvoiceWithDetailsViewModel
+
+<style>
+   .text-right dt {
+      text-align: right;
+   }
+</style>
+
+@{
+   ViewBag.Title = $"Details for Invoice #{Model.InvoiceId}";
+
+   string customerInfo = $"{Model.CustomerId}<br />" + $"{Model.CustomerFirstName} {Model.CustomerLastName}<br />" +
+                          $"{Model.CustomerState}, {Model.CustomerCountry}";
+
+   string billingAddress = $"{Model.BillingAddress}<br />" +
+                           $"{Model.BillingCity}, {Model.BillingState}<br />" +
+                           $"{Model.BillingCountry}, {Model.BillingPostalCode}";
+
+   string salesRep = $"{Model.CustomerEmployeeFirstName} {Model.CustomerEmployeeLastName}";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<hr />
+
+<dl class="row text-right">
+   <dt class="col-sm-2">Customer Info</dt>
+   <dd class="col-sm-10">@Html.Raw(customerInfo)</dd>
+</dl>
+
+<dl class="row text-right">
+   <dt class="col-sm-2">Billing Address</dt>
+   <dd class="col-sm-10">@Html.Raw(billingAddress)</dd>
+</dl>
+
+<hr />
+
+<dl class="row text-right">
+   <dt class="col-sm-2">Sales Rep</dt>
+   <dd class="col-sm-10">@Html.Raw(salesRep)</dd>
+
+   <dt class="col-sm-2">Date</dt>
+   <dd class="col-sm-10">@Model.InvoiceDate.ToString("MMM d, yyyy")</dd>
+
+   <dt class="col-sm-2">Total</dt>
+   <dd class="col-sm-10">@Model.Total.ToString("C")</dd>
+</dl>
+
+
+<h4>Line Items</h4>
+<table class="table table-striped">
+   <colgroup>
+      <col style="width: 10%;" />
+      <col style="width: 60%;" />
+      <col style="width: 10%;" />
+      <col style="width: 10%;" />
+      <col style="width: 20%;" />
+   </colgroup>
+   <thead>
+      <tr>
+         <th>@Html.DisplayNameFor(model => model.InvoiceLines.First().InvoiceLineId)</th>
+         <th style="text-align: center;">@Html.DisplayNameFor(model => model.InvoiceLines.First().TrackName)</th>
+         <th>@Html.DisplayNameFor(model => model.InvoiceLines.First().UnitPrice)</th>
+         <th>@Html.DisplayNameFor(model => model.InvoiceLines.First().Quantity)</th>
+         <th>@Html.DisplayNameFor(model => model.InvoiceLines.First().LinePrice)</th>
+      </tr>
+   </thead>
+   <tbody>
+      @foreach (var line in Model.InvoiceLines)
+      {
+         <tr>
+            <td>@Html.DisplayFor(modelItem => line.InvoiceLineId)</td>
+            <td>
+               <dl class="row text-right">
+                  <dt class="col-sm-2">Name:</dt>
+                  <dd class="col-sm-10">@line.TrackName</dd>
+                  <dt class="col-sm-2">Album:</dt>
+                  <dd class="col-sm-10">@line.TrackAlbumTitle</dd>
+                  <dt class="col-sm-2">Artist:</dt>
+                  <dd class="col-sm-10">@line.TrackAlbumArtistName</dd>
+                  <dt class="col-sm-2">Composer(s):</dt>
+                  <dd class="col-sm-10">@line.TrackComposer</dd>
+                  <dt class="col-sm-2">Genre:</dt>
+                  <dd class="col-sm-10">@line.TrackGenreName</dd>
+                  <dt class="col-sm-2">Media Type:</dt>
+                  <dd class="col-sm-10">@line.TrackMediaType</dd>
+               </dl>
+            </td>
+            <td>@Html.DisplayFor(modelItem => line.UnitPrice)</td>
+            <td>@Html.DisplayFor(modelItem => line.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => line.LinePrice)</td>
+         </tr>
+      }
+   </tbody>
+</table>
+
+<p>
+   @Html.ActionLink("Back to List", "Index")
+</p>
+

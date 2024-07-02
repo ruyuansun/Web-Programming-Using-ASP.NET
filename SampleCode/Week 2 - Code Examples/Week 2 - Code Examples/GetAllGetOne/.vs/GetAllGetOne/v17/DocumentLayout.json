@@ -1,17 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\",
+  "WorkspaceRootPath": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\week 2 - code examples\\getallgetone\\getallgetone\\models\\customerbaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\models\\customerbaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\week 2 - code examples\\getallgetone\\getallgetone\\models\\customeraddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\models\\customeraddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\models\\customeraddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\week 2 - code examples\\getallgetone\\getallgetone\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\models\\customerbaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\models\\customerbaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|c:\\users\\ruyua\\visualstudio-work\\web524\\samplecode\\week 2 - code examples\\week 2 - code examples\\getallgetone\\getallgetone\\controllers\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\controllers\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\getallgetone\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6E2F8B32-4EB5-4967-8EA1-53FBC74DB083}|GetAllGetOne\\GetAllGetOne.csproj|solutionrelative:getallgetone\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,37 +50,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "GetAllGetOne\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "GetAllGetOne\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:22:56.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Controllers\\Manager.cs",
+              "RelativeDocumentMoniker": "GetAllGetOne\\Controllers\\Manager.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Controllers\\Manager.cs",
+              "RelativeToolTip": "GetAllGetOne\\Controllers\\Manager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:29:40.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "GetAllGetOne\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Data\\DataContext.cs",
+              "RelativeToolTip": "GetAllGetOne\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:03:57.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Data\\Customer.cs",
+              "RelativeDocumentMoniker": "GetAllGetOne\\Data\\Customer.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Data\\Customer.cs",
+              "RelativeToolTip": "GetAllGetOne\\Data\\Customer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:03:29.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CustomerBaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
               "RelativeDocumentMoniker": "GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
               "RelativeToolTip": "GetAllGetOne\\Models\\CustomerBaseViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T12:11:59.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CustomerAddViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerAddViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerAddViewModel.cs",
               "RelativeDocumentMoniker": "GetAllGetOne\\Models\\CustomerAddViewModel.cs",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerAddViewModel.cs",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Models\\CustomerAddViewModel.cs",
               "RelativeToolTip": "GetAllGetOne\\Models\\CustomerAddViewModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T12:11:54.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Web.config",
+              "DocumentMoniker": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Web.config",
               "RelativeDocumentMoniker": "GetAllGetOne\\Web.config",
-              "ToolTip": "C:\\Users\\ruyua\\visualStudio-work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Web.config",
+              "ToolTip": "C:\\Users\\ruyua\\VisualStudio-Work\\WEB524\\SampleCode\\Week 2 - Code Examples\\Week 2 - Code Examples\\GetAllGetOne\\GetAllGetOne\\Web.config",
               "RelativeToolTip": "GetAllGetOne\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",

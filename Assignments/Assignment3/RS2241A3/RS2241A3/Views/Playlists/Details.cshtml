@@ -1,0 +1,29 @@
+﻿@model RS2241A3.Models.PlaylistEditTracksFormViewModel
+
+@{
+   ViewBag.Title = "Playlist details";
+}
+
+<h2>Playlist details</h2>
+
+<div>
+   <h4><span class="bg-info">@Model.Name</span></h4>
+   <hr />
+   <dl class="dl-horizontal">
+      <dt>Playlist Name</dt>
+      <dd>@Html.DisplayFor(model => model.Name)</dd>
+      <dt>Tracks on the Playlist</dt>
+      <dd>
+         <span class="badge badge-primary">@Model.TracksCount</span>
+         @foreach (var track in Model.Tracks.OrderBy(t => t.Name))
+         {
+            <p>@track.Name</p>
+         }
+      </dd>
+   </dl>
+</div>
+
+<p>
+   @Html.ActionLink("Edit", "Edit", new { id = Model.PlaylistId }) |
+   @Html.ActionLink("Back to List", "Index")
+</p>

@@ -89,7 +89,18 @@ namespace RS2241A3.Data
              .WillCascadeOnDelete(false);
       }
 
-      #endregion
+        #endregion
 
-   }
+        public System.Data.Entity.DbSet<RS2241A3.Models.AlbumBaseViewModel> AlbumBaseViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<RS2241A3.Models.ArtistBaseViewModel> ArtistBaseViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<RS2241A3.Models.MediaTypeBaseViewModel> MediaTypeBaseViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<RS2241A3.Models.TrackWithDetailViewModel> TrackWithDetailViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<RS2241A3.Models.PlaylistBaseViewModel> PlaylistBaseViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<RS2241A3.Models.TrackAddFormViewModel> TrackAddFormViewModels { get; set; }
+    }
 }

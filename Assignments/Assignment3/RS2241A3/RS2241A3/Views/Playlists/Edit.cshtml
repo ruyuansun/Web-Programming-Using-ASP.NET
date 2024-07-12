@@ -1,0 +1,60 @@
+﻿@model RS2241A3.Models.PlaylistEditTracksFormViewModel
+
+@{
+   ViewBag.Title = "Edit Playlist";
+}
+
+<h2>Edit Playlist <span class="badge badge-primary">@Model.Name</span></h2>
+
+<p>Select tracks, and click the "Save change" button</p>
+
+@using (Html.BeginForm())
+{
+   @Html.AntiForgeryToken()
+
+   <div class="form-horizontal">
+      <hr />
+      @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+      <div class="form-group">
+         <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save changes" class="btn btn-outline-primary" />
+         </div>
+      </div>
+   </div>
+}
+
+<div>
+   @Html.ActionLink("Back to Details", "Details", new { id = Model.PlaylistId }) |
+   @Html.ActionLink("Back to List", "Index")
+</div>
+<hr />
+<div class="row">
+   <div class="col-md-6">
+      <h4>All Tracks</h4>
+      <div class="checkbox">
+         @foreach (var track in Model.TrackList)
+         {
+            bool isSelected = Model.SelectedTracks != null && Model.SelectedTracks.Contains(int.Parse(track.Value));
+            <div class="checkbox">
+               <label>
+                  <input type="checkbox" name="SelectedTracks" value="@track.Value" @(isSelected ? "checked" : "") /> @track.Text
+               </label>
+            </div>
+         }
+      </div>
+   </div>
+   <div class="col-md-6">
+      <h4>Tracks on the Playlist <span class="badge badge-primary">@Model.TracksCount</span></h4>
+      <div class="card bg-light p-3 rounded">
+         @foreach (var track in Model.Tracks.OrderBy(t => t.Name))
+         {
+            <p>@track.NameShort</p>
+         }
+      </div>
+   </div>
+</div>
+
+@section Scripts {
+   @Scripts.Render("~/bundles/jqueryval")
+}

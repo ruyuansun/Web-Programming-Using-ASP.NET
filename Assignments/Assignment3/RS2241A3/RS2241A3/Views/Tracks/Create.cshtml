@@ -1,0 +1,101 @@
+﻿@model RS2241A3.Models.TrackAddFormViewModel
+
+@{
+   ViewBag.Title = "Add new Track";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>Complete the form, and click the Create button</p>
+
+@using (Html.BeginForm())
+{
+   @Html.AntiForgeryToken()
+
+   <div class="form-horizontal">
+      <hr />
+
+      @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", autofocus = "autofocus" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.Composer, htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            @Html.EditorFor(model => model.Composer, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Composer, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.Milliseconds, htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            @Html.EditorFor(model => model.Milliseconds, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Milliseconds, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.UnitPrice, htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            @Html.EditorFor(model => model.UnitPrice, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.UnitPrice, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.AlbumId, "Album", htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            @Html.DropDownListFor(model => model.AlbumId, Model.AlbumList, new { @class = "form-control", size = 10 })
+            @Html.ValidationMessageFor(model => model.AlbumId, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         @Html.LabelFor(model => model.MediaTypeId, "Media Type", htmlAttributes: new { @class = "control-label col-md-2 col-form-label", style = "font-weight: bold;" })
+         <div class="col-md-10">
+            <div class="form-check form-check-inline">
+               @Html.RadioButtonFor(model => model.MediaTypeId, 1, new { @class = "form-check-input" })
+               @Html.Label("AAC audio file", new { @class = "form-check-label" })
+            </div>
+            <div class="form-check form-check-inline">
+               @Html.RadioButtonFor(model => model.MediaTypeId, 2, new { @class = "form-check-input" })
+               @Html.Label("MPEG audio file", new { @class = "form-check-label" })
+            </div>
+            <div class="form-check form-check-inline">
+               @Html.RadioButtonFor(model => model.MediaTypeId, 3, new { @class = "form-check-input" })
+               @Html.Label("Protected AAC audio file", new { @class = "form-check-label" })
+            </div>
+            <div class="form-check form-check-inline">
+               @Html.RadioButtonFor(model => model.MediaTypeId, 4, new { @class = "form-check-input" })
+               @Html.Label("Protected MPEG-4 video file", new { @class = "form-check-label" })
+            </div>
+            <div class="form-check form-check-inline">
+               @Html.RadioButtonFor(model => model.MediaTypeId, 5, new { @class = "form-check-input" })
+               @Html.Label("Purchased AAC audio file", new { @class = "form-check-label" })
+            </div>
+            @Html.ValidationMessageFor(model => model.MediaTypeId, "", new { @class = "text-danger" })
+         </div>
+      </div>
+
+      <div class="form-group row" style="margin-bottom: 20px;">
+         <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-outline-primary" />
+         </div>
+      </div>
+   </div>
+}
+
+<div>
+   @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+   @Scripts.Render("~/bundles/jqueryval")
+}
